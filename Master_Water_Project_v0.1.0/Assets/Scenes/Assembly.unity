@@ -5747,11 +5747,11 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   pauseButton: {fileID: 0}
   timeTakenDuringLerp: 1
-  Hasp: {fileID: 0}
-  Lock: {fileID: 0}
-  Tag: {fileID: 0}
-  ValveLock: {fileID: 0}
-  BottomValveLock: {fileID: 0}
+  Hasp: {fileID: 100006, guid: 99944f70bcc48404084506f7fd22dcf2, type: 3}
+  Lock: {fileID: 100002, guid: 6adddef5ab72c074e95c488f0a8bd370, type: 3}
+  Tag: {fileID: 100000, guid: 3edf3ef45b5a4c84a9b3a1d06f0ace93, type: 3}
+  ValveLock: {fileID: 100004, guid: c1e465894130c7145b30abe2e7047bb1, type: 3}
+  BottomValveLock: {fileID: 100002, guid: c1e465894130c7145b30abe2e7047bb1, type: 3}
   ShrunkBottomValveClosed: {fileID: 0}
   BottomValveLockOpenEnd: {fileID: 0}
   HaspOriginal: {fileID: 0}
