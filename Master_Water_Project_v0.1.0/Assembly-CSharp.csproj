@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Resources\Models\MainTank\CameraDepthTextureMode.cs" />
     <Compile Include="Assets\Scripts\ARSetupStory.cs" />
     <Compile Include="Assets\Scripts\AssemblyStory.cs" />
     <Compile Include="Assets\Scripts\AudioManager\AudioManager.cs" />
@@ -112,14 +113,18 @@
     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\AR_Development_Database.xml" />
+    <None Include="Assets\Resources\Models\MainTank\Shaders\ToonLit.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
     <None Include="Assets\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+    <None Include="Assets\Resources\Models\MainTank\Shaders\UnlitShadowCaster.shader" />
     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+    <None Include="Assets\Resources\Models\MainTank\Shaders\ToonWater.shader" />
     <None Include="Assets\Ultra Skybox Fog\Manual.txt" />
     <None Include="Assets\Scripts\Shaders\WaterDistortion.shader" />
     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+    <None Include="Assets\Resources\Models\MainTank\Shaders\HiddenNormalsTexture.shader" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
