@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\FlowManager.cs" />
     <Compile Include="Assets\Scripts\FlowSpeed.cs" />
     <Compile Include="Assets\Scripts\GaugeHighlighter.cs" />
+    <Compile Include="Assets\Scripts\GlobalFunctions.cs" />
     <Compile Include="Assets\Scripts\LabelKeeper.cs" />
     <Compile Include="Assets\Scripts\LOTO\LOTOPumpStory.cs" />
     <Compile Include="Assets\Scripts\LOTO\LOTOValveStory.cs" />

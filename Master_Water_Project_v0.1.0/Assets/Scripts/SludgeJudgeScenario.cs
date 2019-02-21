@@ -82,7 +82,7 @@ public class SludgeJudgeScenario : MonoBehaviour, ITrackableEventHandler
 
         if(Input.GetKeyDown(KeyCode.S))
         {
-            RaycastHit hit = DetectTouch();
+            RaycastHit hit = GlobalFunctions.DetectTouch();
             if(hit.transform != null)
             {
                 Debug.Log(hit.transform.name);
@@ -105,29 +105,13 @@ public class SludgeJudgeScenario : MonoBehaviour, ITrackableEventHandler
             coloredMats[i].color = sludgeColors[(int)sludgeType];
         }
     }
-
-    //Takes a touch on the screen, and converts it into a raaycast into the scene
-    RaycastHit DetectTouch()
-    {
-        //Checks to see if there are any current touches, which avoids errors from Input.GetTouch
-        /*if (Input.touchCount < 1)
-            return new RaycastHit();*/
-
-        //Touch touch = Input.GetTouch(0);
-        RaycastHit hit = new RaycastHit();
-        //Physics.Raycast(mainCam.ScreenPointToRay(touch.position), out hit);
-        if(Input.GetMouseButtonDown(0))
-        {
-            Physics.Raycast(mainCam.ScreenPointToRay(Input.mousePosition), out hit);
-        }
-        return hit;
-    }
+    
 
     IEnumerator SludgeJudgeStory()
     {
         while(true)
         {
-            if (DetectTouch().transform == sludgeJudge)
+            if (GlobalFunctions.DetectTouch().transform == sludgeJudge)
             {
                 Debug.Log("Sludge judge tapped");
                 StartCoroutine("SludgeJudgeDip");
@@ -141,7 +125,7 @@ public class SludgeJudgeScenario : MonoBehaviour, ITrackableEventHandler
 
         while (true)
         {
-            if (DetectTouch().transform == sludgeJudge)
+            if (GlobalFunctions.DetectTouch().transform == sludgeJudge)
             {
                 Debug.Log("Sludge judge tapped");
                 break;
